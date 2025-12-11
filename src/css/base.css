@@ -2,7 +2,9 @@ html {
   scroll-behavior: smooth;
 }
 body {
-  font-family: 'Roboto', 'Raleway', sans-serif;
-  color: var(--slate);
-  background: var(--white);
+  font-family: 'DM Sans', sans-serif;
+}
+.section {
+  padding: 40px 20px;
+  background: #121212;
 }
