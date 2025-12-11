@@ -1,14 +1,70 @@
-<section class="section">
+<header class="section header-section">
   <div class="container header-container">
     <a class="header-link-logo" href="/index.html">
       <svg class="header-logo" width="123" height="16">
         <use href="/img/icons.svg#icon-logo"></use>
       </svg>
     </a>
+
+    <a class="header-camera" href="">
+      <svg class="icon-favicon" width="16" height="16">
+        <use href="/img/icons.svg#icon-favicon"></use>
+      </svg>
+    </a>
+    <button class="btn-nav" data-menu-open>
+      <svg class="icon-nav" width="32" height="22">
+        <use href="/img/icons.svg#icon-nav"></use>
+      </svg>
+    </button>
+
     <nav class="header-nav">
       <ul class="header-list">
         <li class="header-item"></li>
       </ul>
     </nav>
   </div>
-</section>
+  <div class="mobile-menu">
+    <div class="mobile-menu-container">
+      <button class="btn-mobaile-close" data-menu-close>
+        <svg class="mobile-close-icon" width="32" height="32">
+          <use href="/img/icons.svg#icon-x"></use>
+        </svg>
+      </button>
+      <nav class="menu-nav">
+        <ul class="menu-list">
+          <li class="menu-item menu-item-about">
+            <a href="#">About us</a>
+          </li>
+          <li class="menu-item">
+            <a href="#">Our courses</a>
+          </li>
+          <li class="menu-item">
+            <a href="#">Our mentors</a>
+          </li>
+          <li class="menu-item">
+            <a href="#">Reviews</a>
+          </li>
+          <li class="menu-item">
+            <a href="#">contacts</a>
+          </li>
+        </ul>
+      </nav>
+      <picture class="catalog-foto-picture">
+        <source
+          srcset="
+            /img/header/header-tablet-menu@1x.webp 1x,
+            /img/header/header-tablet-menu@1x.webp 2x
+          "
+          media="(min-width: 768px)"
+        />
+        <img
+          class="menu-img"
+          src="/img/header/header-menu@1x.webp"
+          srcset="/img/header/header-menu@2x.webp 2x"
+          alt="Camera"
+          width="208"
+        />
+      </picture>
+    </div>
+  </div>
+</header>
