@@ -1,19 +1,14 @@
-(() => {
-  const openBtn = document.querySelector('[data-menu-open]');
-  const closeBtn = document.querySelector('[data-menu-close]');
-  const mobileMenu = document.querySelector('.mobile-menu');
+const menu = document.querySelector('.mobile-menu');
+const backdrop = document.querySelector('.mobile-menu-backdrop');
+const openBtn = document.querySelector('.btn-nav'); // КНОПКА ОТКРЫТИЯ!
+const closeBtn = document.querySelector('.btn-mobaile-close');
 
-  if (!mobileMenu) return;
+openBtn.addEventListener('click', () => {
+  menu.classList.add('is-open');
+  backdrop.classList.add('is-open');
+});
 
-  if (openBtn) {
-    openBtn.addEventListener('click', () => {
-      mobileMenu.classList.add('is-open');
-    });
-  }
-
-  if (closeBtn) {
-    closeBtn.addEventListener('click', () => {
-      mobileMenu.classList.remove('is-open');
-    });
-  }
-})();
+closeBtn.addEventListener('click', () => {
+  menu.classList.remove('is-open');
+  backdrop.classList.remove('is-open');
+});

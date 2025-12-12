@@ -6,7 +6,7 @@
       </svg>
     </a>
 
-    <a class="header-camera" href="">
+    <a class="header-camera" href="/index.html">
       <svg class="icon-favicon" width="16" height="16">
         <use href="/img/icons.svg#icon-favicon"></use>
       </svg>
@@ -19,52 +19,71 @@
 
     <nav class="header-nav">
       <ul class="header-list">
-        <li class="header-item"></li>
+        <li class="header-item">
+          <a href="#about">About us</a>
+        </li>
+        <li class="header-item">
+          <a href="#courses">Our courses</a>
+        </li>
+        <li class="header-item">
+          <a href="#mentors">Our mentors</a>
+        </li>
+        <li class="header-item">
+          <a href="#reviews">Reviews</a>
+        </li>
+        <li class="header-item">
+          <a href="#contacts">contacts</a>
+        </li>
       </ul>
     </nav>
   </div>
-  <div class="mobile-menu">
-    <div class="mobile-menu-container">
-      <button class="btn-mobaile-close" data-menu-close>
-        <svg class="mobile-close-icon" width="32" height="32">
-          <use href="/img/icons.svg#icon-x"></use>
-        </svg>
-      </button>
-      <nav class="menu-nav">
-        <ul class="menu-list">
-          <li class="menu-item menu-item-about">
-            <a href="#">About us</a>
-          </li>
-          <li class="menu-item">
-            <a href="#">Our courses</a>
-          </li>
-          <li class="menu-item">
-            <a href="#">Our mentors</a>
-          </li>
-          <li class="menu-item">
-            <a href="#">Reviews</a>
-          </li>
-          <li class="menu-item">
-            <a href="#">contacts</a>
-          </li>
-        </ul>
-      </nav>
-      <picture class="catalog-foto-picture">
-        <source
-          srcset="
-            /img/header/header-tablet-menu@1x.webp 1x,
-            /img/header/header-tablet-menu@1x.webp 2x
-          "
-          media="(min-width: 768px)"
-        />
-        <img
-          class="menu-img"
-          src="/img/header/header-menu@1x.webp"
-          srcset="/img/header/header-menu@2x.webp 2x"
-          alt="Camera"
-          width="208"
-        />
-      </picture>
+  <button class="btn-header-signup" type="button">Sign up</button>
+  <!-- #region menu -->
+  <div class="mobile-menu-backdrop">
+    <div class="mobile-menu">
+      <div class="mobile-menu-container">
+        <button class="btn-mobaile-close" data-menu-close>
+          <svg class="mobile-close-icon" width="32" height="32">
+            <use href="/img/icons.svg#icon-x"></use>
+          </svg>
+        </button>
+        <nav class="menu-nav">
+          <ul class="menu-list">
+            <li class="menu-item menu-item-about">
+              <a href="#about">About us</a>
+            </li>
+            <li class="menu-item">
+              <a href="#courses">Our courses</a>
+            </li>
+            <li class="menu-item">
+              <a href="#mentors">Our mentors</a>
+            </li>
+            <li class="menu-item">
+              <a href="#reviews">Reviews</a>
+            </li>
+            <li class="menu-item">
+              <a href="#contacts">contacts</a>
+            </li>
+          </ul>
+        </nav>
+        <picture class="catalog-foto-picture">
+          <source
+            srcset="
+              /img/header/header-tablet-menu@1x.webp 1x,
+              /img/header/header-tablet-menu@1x.webp 2x
+            "
+            media="(min-width: 767px)"
+          />
+          <img
+            class="menu-img"
+            src="/img/header/header-menu@1x.webp"
+            srcset="/img/header/header-menu@2x.webp 2x"
+            alt="Camera"
+            width="208"
+          />
+        </picture>
+      </div>
     </div>
   </div>
+  <!-- #endregion menu -->
 </header>
