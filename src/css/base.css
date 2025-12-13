@@ -6,6 +6,7 @@ body {
 }
 .section {
   background: #121212;
+  color: #fff;
   padding: 40px 20px;
 }
 @media screen and (min-width: 768px) {

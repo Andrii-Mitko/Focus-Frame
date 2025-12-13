@@ -2,33 +2,46 @@
   overflow: hidden;
   white-space: nowrap;
 }
-
 .blok-track {
+  padding: 20px 0;
   display: flex;
   width: max-content;
   animation: ticker 18s linear infinite;
   will-change: transform;
 }
-
 .blok-title {
   font-weight: 400;
+  font-size: 28px;
+  line-height: 1.14;
+  letter-spacing: -0.02em;
   text-transform: uppercase;
   color: #bea69e;
   padding-right: 48px;
   flex-shrink: 0;
 }
-
-/* акцент */
 .blok-span {
   color: #fff;
 }
-
-/* анимация */
 @keyframes ticker {
   from {
     transform: translate3d(0, 0, 0);
   }
   to {
     transform: translate3d(-33.333%, 0, 0);
+  }
+}
+@media screen and (min-width: 768px) {
+  .blok-title {
+    font-size: 40px;
+    line-height: 1.25;
+  }
+  .blok-track {
+    padding: 24px 0;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .blok-title {
+    font-size: 59px;
+    line-height: 1.08;
   }
 }
