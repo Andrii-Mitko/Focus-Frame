@@ -33,8 +33,8 @@
 <symbol id="icon-arrow" viewBox="0 0 64 32">
 <path d="M44.444 0l19.556 15.396-19.556 15.396v-12.729h-44.444v-5.333h44.444v-12.729z"></path>
 </symbol>
-</defs>
-</svg>
-
+<symbol id="icon-arrow-courses" viewBox="0 0 34 32">
+<path d="M16.127 5.954l11.784-0.368-2.408 11.541-3.876-4.619-16.127 13.532-1.624-1.935 16.127-13.532-3.876-4.619z"></path>
+</symbol>
 </defs>
 </svg>
