@@ -6,4 +6,15 @@ body {
 }
 .section {
   background: #121212;
+  padding: 40px 20px;
+}
+@media screen and (min-width: 768px) {
+  .section {
+    padding: 50px 32px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .section {
+    padding: 75px 100px;
+  }
 }
