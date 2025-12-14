@@ -1,0 +1,90 @@
+<section class="section" id="contacts">
+  <div class="container signup-container">
+    <div class="signup-div-content">
+      <h2 class="signup-title">Sign <span class="signup-span">Up</span></h2>
+      <form class="form">
+        <p class="signup-text-form">
+          Please use the form below to contact us. Enter your name, email, and
+          message and we'll get back to you shortly.
+        </p>
+        <div class="form__field">
+          <label for="name" class="form__label"></label>
+          <input
+            type="text"
+            id="name"
+            name="name"
+            class="form__input"
+            placeholder="Enter your name"
+            required
+          />
+        </div>
+
+        <div class="form__field">
+          <label for="email" class="form__label"></label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            class="form__input"
+            placeholder="Enter your email"
+            required
+          />
+        </div>
+
+        <div class="form__field">
+          <label for="message" class="form__label"></label>
+          <textarea
+            id="message"
+            name="message"
+            class="form__textarea"
+            placeholder="Message"
+            required
+          ></textarea>
+          <button type="submit" id="submitBtn" class="form__btn">Send</button>
+        </div>
+        <p class="signup-text-policy">
+          By clicking on “Send” button, you agree to our
+          <span class="span-policy">Privacy Policy</span>, and allow Promodo to
+          use this information for marketing purposes.
+        </p>
+      </form>
+    </div>
+    <div class="signup-div-img">
+      <picture class="signup-picture-small">
+        <source
+          srcset="
+            ./img/signup/signup-desktop-desktop1@1x.png 1x,
+            ./img/signup/signup-desktop-desktop1@2x.png 2x
+          "
+          media="(min-width: 1440px)"
+        />
+        <img
+          class="signup-img-small"
+          src="./img/signup/signup-desktop1@1x.png"
+          srcset="./img/signup/signup-desktop1@2x.png 2x"
+          alt="Camera"
+          width="150"
+          height="142"
+        />
+      </picture>
+
+      <picture class="signup-picture-big">
+        <source
+          srcset="
+            ./img/signup/signup-desktop-desktop2@1x.png,
+            ./img/signup/signup-desktop-desktop2@1x.png 2x
+          "
+          media="(min-width: 1440px)"
+        />
+        <img
+          class="signup-img-big"
+          src="./img/signup/signup-desktop2@1x.png"
+          srcset="./img/signup/signup-desktop2@2x.png 2x"
+          alt="Camera"
+          width="240"
+          height="296"
+        />
+      </picture>
+    </div>
+  </div>
+</section>
