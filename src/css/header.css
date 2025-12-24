@@ -102,7 +102,7 @@
   flex-direction: column;
   align-content: space-between;
 }
-.btn-mobaile-close {
+.btn-mobile-close {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -187,7 +187,7 @@
   .mobile-menu-container {
     padding-top: 232px;
   }
-  .btn-mobaile-close {
+  .btn-mobile-close {
     right: 32px;
     height: 40px;
     width: 40px;
